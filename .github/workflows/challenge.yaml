@@ -1,7 +1,8 @@
 name: challenege
 
 on: push
-ARTIFACT: "artifact.txt"
+env:
+  ARTIFACT: "artifact.txt"
 jobs:
   job1:
     name: first job
