@@ -13,3 +13,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Step Two
         run: echo "create artifact" > $ARTIFACT
+
+      - name: Step Three
+        uses: actions/upload-artifact
