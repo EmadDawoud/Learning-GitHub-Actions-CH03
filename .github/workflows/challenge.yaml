@@ -16,5 +16,5 @@ jobs:
       - name: Step Three
         uses: actions/upload-artifact@v3.0.0
         with:
-          name: my-artifact
+          name: ${{ env.ARTIFACT }}
           path: ${{ env.ARTIFACT }}
