@@ -12,7 +12,6 @@ jobs:
       - name: Step One
         uses: actions/checkout@v2
       - name: Step Two
-        run: echo "create artifact" > $ARTIFACT
-
+        run: echo "create artifact" > $ARTIFACT@v1.0.0
       - name: Step Three
         uses: actions/upload-artifact
