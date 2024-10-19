@@ -1,0 +1,14 @@
+name: challenege
+
+on: push
+ARTIFACT: "artifact.txt"
+jobs:
+  job1:
+    name: first job
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Step One
+        uses: actions/checkout@v2
+      - name: Step Two
+        run: echo "create artifact" > $ARTIFACT
