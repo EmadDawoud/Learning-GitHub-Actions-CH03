@@ -14,4 +14,4 @@ jobs:
       - name: Step Two
         run: echo "create artifact" > $ARTIFACT
       - name: Step Three
-        uses: actions/upload-artifact@v1.1.0
+        uses: actions/upload-artifact@v3.0.0
